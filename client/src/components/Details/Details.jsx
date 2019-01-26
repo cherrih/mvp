@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from './Search.jsx';
 import Featured from './Featured.jsx';
-import CityList from './CityList.jsx';
+import CityList from './CityList/CityList.jsx';
 
 const Details = (props) => {
   return (
@@ -9,7 +9,7 @@ const Details = (props) => {
       <div className="details-heading">  Helping queerdos <br/> travel queerer. </div>
       <Search />
       <Featured />
-      <CityList />
+      <CityList cities={props.cities}/>
     </div>
   )
 };
