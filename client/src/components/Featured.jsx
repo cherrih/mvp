@@ -4,7 +4,11 @@ const Featured = (props) => {
   return(
     <div id="featured">
       <h2>Gayest cities</h2>
-      <div>As chosen by you!</div>
+      <div id="featured-image-container">
+        <div className="featured-image"></div>
+        <div className="featured-image"></div>
+        <div className="featured-image"></div>
+      </div>
     </div>
   )
 }
