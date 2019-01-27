@@ -1,6 +1,5 @@
 import React from 'react';
-import Details from './Details/Details.jsx';
-import About from './About/About.jsx';
+import Home from './Home/Home.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -39,17 +38,14 @@ class App extends React.Component {
         },
       ],
       isHome: true,
+      isNewYork: false
     }
   }
 
   render () {
     return (<div>
-      {/* <Home cities={this.state.cities} isHome={this.state.isHome}/> */}
-      <nav><h1>QUEER TRIP</h1></nav>
-      <div className="main-container">
-        <Details cities={this.state.cities}/>
-        <About />
-      </div>
+      <Home cities={this.state.cities} isHome={this.state.isHome}/>
+      {/* <NewYorkCity /> */}
     </div>)
   }
 }
