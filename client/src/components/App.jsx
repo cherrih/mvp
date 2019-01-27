@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './Home/Home.jsx';
+import NewYorkCity from './NewYorkCity/NewYorkCity.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -37,15 +38,17 @@ class App extends React.Component {
           name:'Auckland',
         },
       ],
-      isHome: true,
-      isNewYork: false
+      isHome: false,
+      isNewYorkCity: true
     }
   }
 
   render () {
-    return (<div>
-      <Home cities={this.state.cities} isHome={this.state.isHome}/>
-      {/* <NewYorkCity /> */}
+    console.log('in the app')
+    return (
+    <div>
+      <div>{ this.state.isHome ? <Home cities={this.state.cities}/> : <div></div> }</div>
+      <div>{ this.state.isNewYorkCity ? <NewYorkCity /> : <div></div>}</div>
     </div>)
   }
 }
