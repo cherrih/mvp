@@ -44,7 +44,6 @@ class App extends React.Component {
   }
 
   render () {
-    console.log('in the app')
     return (
     <div>
       <div>{ this.state.isHome ? <Home cities={this.state.cities}/> : <div></div> }</div>
