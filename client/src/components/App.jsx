@@ -19,12 +19,32 @@ class App extends React.Component {
         {
           name:'Wellington',
         },
-      ]
+        {
+          name:'San Francisco',
+        },
+        {
+          name:'Rio',
+        },
+        {
+          name:'Auckland',
+        },
+        {
+          name:'San Francisco',
+        },
+        {
+          name:'Rio',
+        },
+        {
+          name:'Auckland',
+        },
+      ],
+      isHome: true,
     }
   }
 
   render () {
     return (<div>
+      {/* <Home cities={this.state.cities} isHome={this.state.isHome}/> */}
       <nav><h1>QUEER TRIP</h1></nav>
       <div className="main-container">
         <Details cities={this.state.cities}/>
