@@ -21,6 +21,7 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
+    "acorn": "^6.0.5",
     "body-parser": "^1.17.2",
     "express": "^4.15.0",
     "google-map-react": "^1.1.2",
