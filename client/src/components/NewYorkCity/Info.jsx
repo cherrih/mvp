@@ -56,7 +56,7 @@ const Info = (props) => {
       <div className="city-description">
         Neutra normcore vice, schlitz scenester affogato duis consectetur la croix irure tousled swag tofu. Yuccie tumeric slow-carb, dolore poutine retro DIY in. Schlitz hammock mollit trust fund disrupt quinoa mumblecore live-edge tumblr artisan deserunt sunt. Man braid bicycle rights leggings commodo nisi, flannel skateboard deep v williamsburg aliquip vice franzen humblebrag hot chicken. Mlkshk la croix crucifix chillwave, vaporware letterpress wolf taiyaki meggings elit 8-bit craft beer raw denim chartreuse excepteur.
       </div>
-      <div className="city-next-button"></div>
+      <div className="city-next-button">^</div>
     </div>
   )
 };
