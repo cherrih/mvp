@@ -1,13 +1,12 @@
 import React from 'react';
 import Info from './Info.jsx';
-import Map from './Map.jsx';
+import MapContainer from './Map/MapContainer.jsx';
 
 const NewYorkCity = (props) => {
-  console.log("i'm in newyork")
   return (
     <div className="nyc-container">
       <Info/>
-      <Map/>
+      <MapContainer/>
     </div>
   )
 }
