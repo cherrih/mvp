@@ -7,7 +7,7 @@ const Details = (props) => {
   return (
     <div id="details-body">
       <div className="details-heading">  Helping queerdos <br/> travel queerer. </div>
-      <Search />
+      <Search handleSubmit={props.handleSubmit}/>
       <Featured />
       <CityList cities={props.cities}/>
     </div>

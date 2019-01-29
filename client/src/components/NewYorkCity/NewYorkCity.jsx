@@ -5,7 +5,7 @@ import MapContainer from './Map/MapContainer.jsx';
 const NewYorkCity = (props) => {
   return (
     <div className="nyc-container">
-      <Info/>
+      <Info goHome={props.goHome}/>
       <MapContainer/>
     </div>
   )

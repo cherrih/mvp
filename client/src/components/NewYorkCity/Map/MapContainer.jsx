@@ -1,7 +1,10 @@
 import React from 'react';
-import apiKey from './apiconfig.js';
-// import { Map, GoogleApiWrapper } from 'google-maps-react';
 import GoogleMapReact from 'google-map-react';
+import apiKey from './apiconfig.js';
+import sampleData from '../sampleData.js';
+import PlaceMarker from './PlaceMarker.jsx';
+
+// const customStyles = require('./GoogleMapStyles.json');
 
 class MapContainer extends React.Component {
   constructor(props) {
@@ -17,27 +20,24 @@ class MapContainer extends React.Component {
   render () {
     return (
       <div id="map-container">
-        {/* <Map
-          id="nyc-map"
-          google={this.props.google}
-          zoom={13}
-          initialCenter={{
-          lat: 40.695954,
-          lng: -73.905200
-          }}
-        /> */}
         <GoogleMapReact
           bootstrapURLKeys={{key: apiKey}}
           defaultCenter={ this.state.center }
-          defaultZoom={ this.state.zoom }>
+          defaultZoom={ this.state.zoom }
+          onChildMouseEnter={ this.onChildMouseEnter }
+          onChildMouseLeave={ this.onChildMouseLeave }
+          // options={{
+          //   styles: customStyles
+          // }}
+          >
+          {sampleData.map((place, index) => {
+            console.log(place, index);
+            return <PlaceMarker data={place} text={index + 1} lat={place.lat} lng={place.lng} key={index + 1}/>
+          })}
         </GoogleMapReact>
       </div>
     )
   }
 };
-
-// export default GoogleApiWrapper({
-//   apiKey: apiKey
-// })(MapContainer);
 
 export default MapContainer;

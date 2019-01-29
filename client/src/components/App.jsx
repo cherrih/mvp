@@ -38,16 +38,28 @@ class App extends React.Component {
           name:'Auckland',
         },
       ],
-      isHome: false,
-      isNewYorkCity: true
+      isHome: true,
+      isNewYorkCity: false
     }
   }
-
+  handleSubmitCity (event) {
+    event.preventDefault();
+    this.setState({
+      isHome: !this.state.isHome,
+      isNewYorkCity: !this.state.isNewYorkCity
+    })
+  }
+  handleHomeClick (event) {
+    this.setState({
+      isHome: true,
+      isNewYorkCity: false
+    })
+  }
   render () {
     return (
     <div>
-      <div>{ this.state.isHome ? <Home cities={this.state.cities}/> : <div></div> }</div>
-      <div>{ this.state.isNewYorkCity ? <NewYorkCity /> : <div></div>}</div>
+      <div>{ this.state.isHome ? <Home cities={this.state.cities} handleSubmit={this.handleSubmitCity.bind(this)} goHome={this.handleHomeClick.bind(this)}/> : <div></div> }</div>
+      <div>{ this.state.isNewYorkCity ? <NewYorkCity goHome={this.handleHomeClick.bind(this)}/> : <div></div>}</div>
     </div>)
   }
 }
