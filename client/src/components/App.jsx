@@ -25,6 +25,12 @@ class App extends React.Component {
       isNewYorkCity: false
     })
   }
+  handleCityClick (event) {
+    this.setState({
+      isHome: !this.state.isHome,
+      isNewYorkCity: !this.state.isNewYorkCity
+    })
+  }
 
   componentDidMount () {
     fetch('/cities')
@@ -41,7 +47,7 @@ class App extends React.Component {
   render () {
     return (
     <div>
-      <div>{ this.state.isHome ? <Home cities={this.state.cities} handleSubmit={this.handleSubmitCity.bind(this)} goHome={this.handleHomeClick.bind(this)}/> : <div></div> }</div>
+      <div>{ this.state.isHome ? <Home cities={this.state.cities} handleSubmit={this.handleSubmitCity.bind(this)} goHome={this.handleHomeClick.bind(this)} handleCityClick={this.handleCityClick.bind(this)}/> : <div></div> }</div>
       <div>{ this.state.isNewYorkCity ? <NewYorkCity goHome={this.handleHomeClick.bind(this)} /> : <div></div>}</div>
     </div>)
   }

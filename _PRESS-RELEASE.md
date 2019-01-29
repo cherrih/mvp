@@ -1,4 +1,4 @@
-# Project Name #
+# Queertrip #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,29 +16,28 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## Helping queerdos travel queerer ##
+  > Queertrips is for everybody to find safe spaces around the world. 
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Traveling internationally while queer can sometimes be a scary experience. With Queertrips you can find experiences and people across the globe who will accept you for who you are. Browse through thousands of safe spots around the world and share your own tips! 
+  
+  If you don't identify as LGBTQIA+ have you considered becoming an ally? Join us to challenge homophobia, biphobia and transphobia!
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Safety is one of the key concerns of LGBTQIA+ travellers and for good reason. Homosexuality is illegal in 73 countries around the world. The current US administration has threatened to roll back recognition and protections of transgender people. 
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Queertrips allows access to a database of safe spots around the world. From restrooms to parties to queer-owned businesses, queerdos across the globe can suggest places where we can all feel safe.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "Whether you’re gay, lesbian, bisexual, genderqueer, straight, asexual, we don’t give a f*&%. We just want to create experiences and have fun with openminded people around the world."
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Browse the app! Suggest your favourite queer places!
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "As a queer womyn, I was really scared to travel to Israel. Thanks to Queertrips, I found heaps of cool spots where I could be myself, judgment free!"
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Want to become an ambassador? Join us to challenge homophobia, biphobia and transphobia!

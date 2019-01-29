@@ -1,15 +1,6 @@
 import React from 'react';
-import ReactFullpage from "@fullpage/react-fullpage";
-
-const fullpageOptions = {
-  anchors: [],
-  sectionsColor: ["#282c34", "#ff5f45", "#0798ec"],
-  callbacks: ["onLeave", "afterLoad"],
-  scrollOverflow: true
-};
 
 const PlaceInfo = (props) => {
-  console.log(props.place)
   const style = {
     backgroundImage: `url(${props.place.image})`
   }
