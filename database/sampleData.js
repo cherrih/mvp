@@ -1,0 +1,29 @@
+[
+  {
+    name:'Tokyo',
+  },
+  {
+    name:'NYC',
+  },
+  {
+    name:'Quito',
+  },
+  {
+    name:'Wellington',
+  },
+  {
+    name:'San Francisco',
+  },
+  {
+    name:'Rio',
+  },
+  {
+    name:'San Francisco',
+  },
+  {
+    name:'Rio',
+  },
+  {
+    name:'Auckland',
+  },
+],

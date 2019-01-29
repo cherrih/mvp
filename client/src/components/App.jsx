@@ -6,42 +6,12 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      cities: [
-        {
-          name:'Tokyo',
-        },
-        {
-          name:'NYC',
-        },
-        {
-          name:'Quito',
-        },
-        {
-          name:'Wellington',
-        },
-        {
-          name:'San Francisco',
-        },
-        {
-          name:'Rio',
-        },
-        {
-          name:'Auckland',
-        },
-        {
-          name:'San Francisco',
-        },
-        {
-          name:'Rio',
-        },
-        {
-          name:'Auckland',
-        },
-      ],
+      cities: null,
       isHome: true,
       isNewYorkCity: false
     }
   }
+
   handleSubmitCity (event) {
     event.preventDefault();
     this.setState({
@@ -55,6 +25,18 @@ class App extends React.Component {
       isNewYorkCity: false
     })
   }
+
+  componentDidMount () {
+    fetch('/cities')
+    .then((response) => {
+      return response.json();
+    })
+    .then((myJson) => {
+      this.setState({
+        cities: JSON.stringify(myJson)});
+    });
+  }
+
   render () {
     return (
     <div>

@@ -24,14 +24,11 @@ class MapContainer extends React.Component {
           bootstrapURLKeys={{key: apiKey}}
           defaultCenter={ this.state.center }
           defaultZoom={ this.state.zoom }
-          onChildMouseEnter={ this.onChildMouseEnter }
-          onChildMouseLeave={ this.onChildMouseLeave }
           // options={{
           //   styles: customStyles
           // }}
           >
           {sampleData.map((place, index) => {
-            console.log(place, index);
             return <PlaceMarker data={place} text={index + 1} lat={place.lat} lng={place.lng} key={index + 1}/>
           })}
         </GoogleMapReact>
