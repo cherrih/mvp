@@ -1,7 +1,6 @@
 import React from 'react';
 
 const PlaceInfo = (props) => {
-  console.log(props.place)
   const style = {
     backgroundImage: `url(${props.place.image})`
   }

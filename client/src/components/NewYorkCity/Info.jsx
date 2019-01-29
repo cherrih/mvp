@@ -67,7 +67,7 @@ const Info = (props) => {
         <div className="city-next-button">^</div>
 
       </div>
-      <div>
+      <div className="city-places-container">
         {sampleData.map((place, index) => {
           return <PlaceInfo key={index + 1} place={place}/>
         })}
