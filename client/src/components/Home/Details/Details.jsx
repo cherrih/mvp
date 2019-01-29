@@ -8,8 +8,7 @@ const Details = (props) => {
     <div id="details-body">
       <div className="details-heading">  Helping queerdos <br/> travel queerer. </div>
       <Search handleSubmit={props.handleSubmit}/>
-      <Featured />
-      <CityList cities={props.cities}/>
+      <CityList cities={props.cities} handleCityClick={props.handleCityClick}/>
     </div>
   )
 };

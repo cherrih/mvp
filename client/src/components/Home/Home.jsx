@@ -8,9 +8,18 @@ const Home = (props) => {
       <nav className="home-nav"><h1 onClick={props.goHome}>Queertrip</h1></nav>
       <div className="main-container">
         { props.cities ?
-        <Details cities={props.cities} handleSubmit={props.handleSubmit}/>
+        <Details cities={props.cities} handleSubmit={props.handleSubmit} handleCityClick={props.handleCityClick}/>
         :
-        'Loading...'
+        <section className="rainbow-loader">
+          <div className="rainbow">
+            <div className="bow"></div>
+            <div className="bow"></div>
+            <div className="bow"></div>
+            <div className="bow"></div>
+            <div className="bow"></div>
+            <div className="bow"></div>
+          </div>
+        </section>
         }
       </div>
     </div>
