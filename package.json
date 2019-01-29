@@ -18,6 +18,8 @@
     "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.4.7",
     "webpack": "^4.29.0"
   },
   "dependencies": {
@@ -27,7 +29,6 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.0",
     "google-map-react": "^1.1.2",
-    "mongoose": "^5.4.7",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "react-router-dom": "^4.3.1",
