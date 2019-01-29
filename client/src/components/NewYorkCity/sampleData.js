@@ -11,7 +11,7 @@ const sampleData = [
     category: 'Restaurant',
     identity: ['LGBTQIA+'],
     city: 'NYC',
-    image: 'https://s3-us-west-1.amazonaws.com/queertrip/diner',
+    image: 'https://s3-us-west-1.amazonaws.com/queertrip/diner.jpg',
   },
   {
     name: 'Big Gay Ice Cream Shop',
@@ -25,7 +25,7 @@ const sampleData = [
     category: 'Restaurant',
     identity: ['LGBTQIA+', 'Gay'],
     city: 'NYC',
-    image: 'https://s3-us-west-1.amazonaws.com/queertrip/big-gay',
+    image: 'https://s3-us-west-1.amazonaws.com/queertrip/big-gay.jpg',
   },
   {
     name: 'MeMe\'s Diner',
@@ -39,7 +39,7 @@ const sampleData = [
     category: 'Restaurant',
     identity: ['LGBTQIA+'],
     city: 'NYC',
-    image: 'https://s3-us-west-1.amazonaws.com/queertrip/meme',
+    image: 'https://s3-us-west-1.amazonaws.com/queertrip/meme.jpg',
   },
   {
     name: 'Henrietta Hudson',
@@ -67,7 +67,7 @@ const sampleData = [
     category: 'Bar',
     identity: ['LGBTQIA+'],
     city: 'NYC',
-    image: 'https://s3-us-west-1.amazonaws.com/queertrip/StonewallInn',
+    image: 'https://s3-us-west-1.amazonaws.com/queertrip/StonewallInn.jpeg',
   },
   {
     name: 'Cubby Hole',
@@ -81,7 +81,7 @@ const sampleData = [
     category: 'Bar',
     identity: ['Lesbian'],
     city: 'NYC',
-    image: 'https://s3-us-west-1.amazonaws.com/queertrip/cubbyhole',
+    image: 'https://s3-us-west-1.amazonaws.com/queertrip/cubbyhole.jpg',
   },
   // {
   // name: ,
