@@ -46,8 +46,8 @@ const save = (req, callback) => {
   });
 };
 
-const find = (req, callback) => {
-  City.find(req, (err, res) => {
+const find = (callback) => {
+  City.find({}, (err, res) => {
     if (err) {
       throw err;
     }

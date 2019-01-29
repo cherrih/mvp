@@ -57,11 +57,12 @@ const Info = (props) => {
           </div>
         </div>
         <div className="city-description">
-          Neutra normcore vice, schlitz scenester affogato duis consectetur la croix irure tousled swag tofu. 
-          Yuccie tumeric slow-carb, dolore poutine retro DIY in. Schlitz hammock mollit trust fund disrupt quinoa 
-          mumblecore live-edge tumblr artisan deserunt sunt. Man braid bicycle rights leggings commodo nisi, flannel 
-          skateboard deep v williamsburg aliquip vice franzen humblebrag hot chicken. Mlkshk la croix crucifix chillwave, 
-          vaporware letterpress wolf taiyaki meggings elit 8-bit craft beer raw denim chartreuse excepteur.
+        It is pretty much a non-stop party, from the saunas, darkrooms, bars, clubs, 
+        cafés, festivals, balls, carnivals and celebrations a hedonist’s paradise, a sensualist’s haven, 
+        an aesthete’s delight and a raver’s Mecca, all in one package. The party scene is so diverse 
+        and innovative and celebrates any fetish! That is the reason fort the Folsom Europe fair in 
+        September and the Lesbian and Gay City Festival every June, Europe’s largest street party of its kind, 
+        being held in the traditional gay area around Nollendorfplatz in Schöneberg since 1993.
         </div>
         <div className="city-next-button">^</div>
 

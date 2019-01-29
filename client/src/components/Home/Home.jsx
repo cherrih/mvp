@@ -7,8 +7,11 @@ const Home = (props) => {
     <div>
       <nav className="home-nav"><h1 onClick={props.goHome}>Queertrip</h1></nav>
       <div className="main-container">
+        { props.cities ?
         <Details cities={props.cities} handleSubmit={props.handleSubmit}/>
-        {/* <About /> */}
+        :
+        'Loading...'
+        }
       </div>
     </div>
   )

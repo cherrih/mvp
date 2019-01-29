@@ -33,7 +33,8 @@ class App extends React.Component {
     })
     .then((myJson) => {
       this.setState({
-        cities: JSON.stringify(myJson)});
+        cities: myJson
+      });
     });
   }
 
@@ -41,7 +42,7 @@ class App extends React.Component {
     return (
     <div>
       <div>{ this.state.isHome ? <Home cities={this.state.cities} handleSubmit={this.handleSubmitCity.bind(this)} goHome={this.handleHomeClick.bind(this)}/> : <div></div> }</div>
-      <div>{ this.state.isNewYorkCity ? <NewYorkCity goHome={this.handleHomeClick.bind(this)}/> : <div></div>}</div>
+      <div>{ this.state.isNewYorkCity ? <NewYorkCity goHome={this.handleHomeClick.bind(this)} /> : <div></div>}</div>
     </div>)
   }
 }

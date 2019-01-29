@@ -8,7 +8,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('/cities', (req, res) => {
-  db.find({}, (err, result) => {
+  db.find((err, result) => {
     if (err) {
       res.status(404).end();
     } else {
