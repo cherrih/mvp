@@ -25,19 +25,6 @@ class Details extends React.Component {
     this.setState({ open: !this.state.open });
   };
 
-    // function elementDrag(e) {
-    //   e = e || window.event;
-    //   e.preventDefault();
-    //   // calculate the new cursor position:
-    //   pos1 = pos3 - e.clientX;
-    //   pos2 = pos4 - e.clientY;
-    //   pos3 = e.clientX;
-    //   pos4 = e.clientY;
-    //   // set the element's new position:
-    //   elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    //   elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-    // }
-
   dragMouseDown(e) {
     e.preventDefault();
     const id = e.target.id;
@@ -71,7 +58,6 @@ class Details extends React.Component {
   }
  
   render() {
-    const { open } = this.state;
     return (
       <div id="details-body">
         <div id="details-top">
@@ -86,17 +72,8 @@ class Details extends React.Component {
             onMouseMove={this.state["contact"].isDrag ? this.elementDrag.bind(this) : null}
             style={{top: `${this.state["contact"].top}px`, left: `${this.state["contact"].left}px`}}
             />
-          {/* <Modal open={open} onClose={this.triggerModal.bind(this)} center>
-            <h2>Give us your contact deets and we'll send you some sweet info</h2>
-          </Modal> */}
           <img className="details-img" id="collabo" src="https://s3-us-west-1.amazonaws.com/queertrip/collabo.png" />
-          {/* <Modal open={open} onClose={this.triggerModal.bind(this)} center>
-            <h2>Let's collaborate</h2>
-          </Modal> */}
           <img className="details-img" id="why" src="https://s3-us-west-1.amazonaws.com/queertrip/why.png" />
-            {/* <Modal open={open} onClose={this.triggerModal.bind(this)} center>
-              <h2>Traveling internationally while queer can sometimes be a scary experience. Queertrips is for everybody to find safe spaces on the road. Whether you’re gay, lesbian, bisexual, genderqueer, straight, asexual, we don’t give AF. We just want to create experiences and have fun with openminded people around the world. </h2>
-            </Modal> */}
           <div className="buffer"></div>
         </div>
         <CityList cities={this.props.cities} handleCityClick={this.props.handleCityClick}/>
