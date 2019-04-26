@@ -22,7 +22,7 @@ Once the project moves into development, the press release can be used as a touc
 ## Summary ##
   > Traveling internationally while queer can sometimes be a scary experience. With Queertrips you can find experiences and people across the globe who will accept you for who you are. Browse through thousands of safe spots around the world and share your own tips! 
   
-  If you don't identify as LGBTQIA+ have you considered becoming an ally? Join us to challenge homophobia, biphobia and transphobia!
+  > If you don't identify as LGBTQIA+ have you considered becoming an ally? Join us to challenge homophobia, biphobia and transphobia!
 
 ## Problem ##
   > Safety is one of the key concerns of LGBTQIA+ travellers and for good reason. Homosexuality is illegal in 73 countries around the world. The current US administration has threatened to roll back recognition and protections of transgender people. 
